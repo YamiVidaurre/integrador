@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shirnk-tofit=no">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Integrador</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <ul class="row list-unstyled m-2">
+                <li class="col-sm-2"><img src="./imagenes/codoacodo.png" alt="logocac" height="30px">Conf Bs As</li>
+                <li class="col-sm">La conferencia</li>
+                <li class="col-sm">Los oradores</li>
+                <li class="col-sm">El lugar y la fecha</li>
+                <li class="col-sm">Conviértete en orador</li>
+                <li class="col-sm text-success">Comprar tickets</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bannerprincipal">
+            <div class="position-absolute top-50 end-0 translate-middle-y">
+                <p class="fs-2 text-white">Conf Bs As</p>
+                <p class="text-white lh-base">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a mienbros del evento, a otro estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                <span>
+                <button type="button" class="btn text-white border border-white">Quiero ser orador</type=>
+                <button type="button" class="btn btn-success">Quiero comprar tickets</button>
+                </span>
+            </div>
+        </section>
+
+        <section>
+            <div class="titulo">
+                <div class="fs-5">Conoce a los</div>
+                <div class="text-uppercase fs-2 fw-semibold">ORADORES</div>
+            </div>
+
+
+            <div class="card-group">
+                <div class="cardsteve">
+                  <img src="./imagenes/steve.jpg" class="card-img-top" alt="steve">
+                  <div class="card-body">
+                    <span class="subtitulo">
+                        <button type="button" class="btn btn-warning fw-semibold">JavaScript</button>
+                        <button type="button" class="btn btn-primary fw-semibold">React</button>
+                    </span>
+                    <h4 class="card-title">Steve Jobs</h4>
+                   <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto eveniet nemo alias culpa rerum impedit dicta quas, ea distinctio quos dolores qui, repudiandae ducimus quod blanditiis iste accusantium eum consequuntur?</p>
+                    </div>
+                </div>
+
+                <div class="cardbill">
+                  <img src="./imagenes/bill.jpg" class="card-img-top" alt="bill">
+                  <div class="card-body">
+                    <span class="subtitulo">
+                        <button type="button" class="btn btn-warning fw-semibold">JavaScript</button>
+                        <button type="button" class="btn btn-primary fw-semibold">React</button>
+                    </span>
+                    <h4 class="card-title">Bill Gates</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id commodi iste reiciendis, repellendus tempore dolore. Nihil dolorum ducimus, in dicta voluptates nemo cumque recusandae error culpa doloribus eaque dolore eum.</p>
+                    </div>
+                </div>
+                
+                <div class="cardada">
+                  <img src="./imagenes/ada.jpeg" class="card-img-top" alt="ada">
+                  <div class="card-body">
+                    <span class="subtitulo">
+                        <button type="button" class="btn btn-secondary fw-semibold">JavaScript</button>
+                        <button type="button" class="btn btn-danger fw-semibold">React</button>
+                    </span>
+                    <h4 class="card-title">Ada Lovelace</h4>
+                    
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora fuga voluptate iusto placeat laborum aut aperiam magnam, enim soluta error fugiat dolor, a rerum harum repellendus? Illo saepe amet quod?</p>
+                     </div>
+                </div>
+
+                </div>
+       
+            </div>
+
+        </section>
+
+
+
+<aside>
+    <div class="pub">
+        <img src="./imagenes/honolulu.jpg" alt="playa">
+    </div>
+
+       
+    <div class="text">
+        <div class="fs-5 fw-semibold">Bs As - Octubre</div>
+        <div>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad condado consolidada que cubre toda la ciudad (aproximadamente 600km de superficie).</div>
+        <button type="button" class="btn text-white border border-white">Conocé más</type=>
+    </div> 
+</aside>
+            
+     <div class="titulo">
+        <div class="fs-5">CONVIÉRTETE EN UN</div>
+        <div class="text-uppercase fs-2 fw-semibold">ORADOR</div>
+        <div>Anótate como orador para dar una charla ignite. Cuéntanos que quieres hablar!</div>
+    </div>
+
+    <div class="formulario">
+        <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Sobre qué quieres hablar?" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea"></label>
+              </div>
+              <p>Recuerda incluir un título para tu charla</p>
+              <button type="button" class="btn btn-success">Enviar</button>
+    </div>
+   
+    </main>
+
+    <footer>
+        <nav class="container">
+            <ul class="row list-unstyled m-2">
+                <li class="col-sm">Preguntas frecuentes</li>
+                <li class="col-sm">Contáctanos</li>
+                <li class="col-sm">Prensa</li>
+                <li class="col-sm">Conferencias</li>
+                <li class="col-sm">Términos y condiciones</li>
+                <li class="col-sm">Privacidad</li>
+                <li class="col-sm">Estudiantes</li>
+
+            </ul>
+        </nav>
+
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
